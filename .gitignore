@@ -1,0 +1,28 @@
+Set-Content .gitignore @"
+# Virtual environments
+venv/
+.venv/
+env/
+
+
+__pycache__/
+*.pyc
+*.pyo
+
+
+.env
+.streamlit/
+
+
+tempCodeRunnerFile.*
+.DS_Store
+Thumbs.db
+
+
+qwen_lora_output/
+qwen_lora_adapter/
+
+
+启动前端.bat
+启动前端.ps1
+"@
